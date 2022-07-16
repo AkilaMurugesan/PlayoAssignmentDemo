@@ -1,0 +1,6 @@
+framework module Pods_PlayoAssignment_PlayoAssignmentUITests {
+  umbrella header "Pods-PlayoAssignment-PlayoAssignmentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

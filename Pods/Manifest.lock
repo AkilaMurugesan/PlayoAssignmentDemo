@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (5.6.1)
+  - ANLoader (1.1.2)
+  - libwebp (1.2.1):
+    - libwebp/demux (= 1.2.1)
+    - libwebp/mux (= 1.2.1)
+    - libwebp/webp (= 1.2.1)
+  - libwebp/demux (1.2.1):
+    - libwebp/webp
+  - libwebp/mux (1.2.1):
+    - libwebp/demux
+  - libwebp/webp (1.2.1)
+  - ReachabilitySwift (5.0.0)
+  - SDWebImage/Core (4.4.8)
+  - SDWebImage/WebP (4.4.8):
+    - libwebp (< 2.0, >= 0.5)
+    - SDWebImage/Core
+
+DEPENDENCIES:
+  - Alamofire
+  - ANLoader
+  - ReachabilitySwift
+  - SDWebImage/WebP
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ANLoader
+    - libwebp
+    - ReachabilitySwift
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  ANLoader: fe33ee0568e30894f7d33e7d3aafe8de4b980153
+  libwebp: 98a37e597e40bfdb4c911fc98f2c53d0b12d05fc
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
+
+PODFILE CHECKSUM: 719d8d7bd2c5f3f9d28735b3dadbb9729f0ed411
+
+COCOAPODS: 1.11.2
