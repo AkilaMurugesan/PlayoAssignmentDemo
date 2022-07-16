@@ -2,11 +2,12 @@
 //  SceneDelegate.swift
 //  PlayoAssignment
 //
-//  Created by Arun Subbu on 7/15/22.
+//  Created by Akila Arun on 7/15/22.
 //
 
 import UIKit
 
+@available(iOS 13.0, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
