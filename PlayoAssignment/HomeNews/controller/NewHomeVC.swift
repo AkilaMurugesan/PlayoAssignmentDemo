@@ -83,7 +83,7 @@ extension NewHomeVC: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print(self.datasource?.articles?.count)
+//        print(self.datasource?.articles?.count)
         return self.datasource?.articles?.count ?? 0
     }
     
